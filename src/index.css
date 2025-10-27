@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: gil;
+    src: url(/Font/Gilroy-Medium.ttf);
+}
+*{
+    font-family: gil;
+}

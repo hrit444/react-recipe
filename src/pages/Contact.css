@@ -1,0 +1,125 @@
+.contact {
+  height: 100%;
+  padding-top: 2vw;
+  width: 100%;
+  overflow: hidden;
+}
+.contact .left {
+  padding: 1vw 4vw;
+}
+.contact .left h1 {
+  font-size: 14vw;
+  text-align: left;
+  color: black;
+  margin: 5vw 0;
+  margin-bottom: 8vw;
+}
+.contact .left .text h5 {
+  font-size: 4vw;
+  opacity: 0.65;
+  color: black;
+  margin-bottom: 1vw;
+}
+.contact .left .text h4 {
+  margin: 0;
+  font-size: 5vw;
+  line-height: 1;
+  margin-bottom: 5vw;
+  width: 95%;
+}
+.contact .left .text .follow {
+  display: flex;
+  gap: 2vw;
+}
+.contact .left .text .follow i {
+  background-color: #f56607;
+  color: white;
+  border-radius: 50%;
+  font-size: 5vw;
+  height: 8vw;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+.contact .right form {
+  min-height: 10vh;
+  padding: 2vw 4vw;
+}
+.contact .right form button {
+  margin-bottom: 3vw;
+}
+
+@media (min-width: 1020px) {
+  .contact {
+    display: flex;
+    padding-top: 1vw;
+    height: 90vh;
+  }
+  .contact .left {
+    padding: 1vw 2vw;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact .left h1 {
+    font-size: 6vw;
+    font-weight: 200;
+    letter-spacing: -0.3vw;
+    margin: 2vw 0;
+  }
+  .contact .left .text h5 {
+    font-size: 1vw;
+    margin-bottom: 0.3vw;
+  }
+  .contact .left .text h4 {
+    margin: 0;
+    font-size: 1.4vw;
+    line-height: 1;
+    margin-bottom: 1vw;
+    width: 55%;
+  }
+  .contact .left .text .follow {
+    gap: 0.8vw;
+    margin-bottom: 1vw;
+  }
+  .contact .left .text .follow i {
+    font-size: 1.3vw;
+    height: 2vw;
+    margin-top: 0vw;
+  }
+  .contact .right {
+    width: 50%;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .right form {
+    min-height: 5vh;
+    width: 45vw;
+    padding: 0 2vw;
+    border-radius: 0.5vw;
+    position: relative;
+    background-color: #fae6bf;
+  }
+  .contact .right form h4 {
+    font-size: 1.5vw;
+    margin: 1vw 0;
+    margin-top: 3vw;
+  }
+  .contact .right form input {
+    padding: 0.8vw 1vw;
+    width: 20vw;
+    border-radius: 0.5vw;
+  }
+  .contact .right form textarea {
+    padding: 0.8vw 1vw;
+    border-radius: 0.5vw;
+  }
+  .contact .right form button {
+    margin-bottom: 3vw;
+  }
+}/*# sourceMappingURL=Contact.css.map */

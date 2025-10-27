@@ -1,0 +1,18 @@
+@font-face {
+    font-family: nue;
+    /* src: url(/Font/Neue); */
+    src: url(/Font/NeueHaasDisplayMediu.woff2);
+}
+
+.nav-menu{ 
+    padding-top: 10vw;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+}
+
+.nText{
+    font-family: nue;
+    color: white;
+    font-size: 7vw;
+    text-transform: uppercase;
+}

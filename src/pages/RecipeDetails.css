@@ -1,0 +1,255 @@
+.singleDetail {
+  min-height: 100vh; /* ensures full viewport height */
+  width: 100%;
+}
+
+.img {
+  height: 80vw;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  justify-content: end;
+  padding: 3vw 0;
+}
+
+.feature {
+  background-color: #f56607;
+  padding: 2vw 3vw;
+  display: flex;
+  gap: 1.2vw;
+  border-top-left-radius: 5vw;
+  border-bottom-left-radius: 5vw;
+}
+
+.feature i {
+  font-size: 3.5vw;
+  height: 7vw;
+  aspect-ratio: 1/1;
+  background-color: #f56607;
+  border-radius: 50%;
+  border: 0.5vw solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1vw;
+}
+
+.info {
+  border-radius: 3vw;
+  background-color: white;
+  margin: 4vw 0;
+  padding: 0.1vw 4vw;
+  padding-bottom: 4vw;
+}
+
+.info > .name {
+  font-size: 10vw;
+  line-height: 1;
+  margin: 5vw 0;
+}
+
+.info > p {
+  font-size: 4.5vw;
+  line-height: 5vw;
+  height: 30vw;
+}
+
+.info > .fewdetails {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3vw;
+  margin: 1.5vw 0;
+}
+
+.info > .fewdetails > .minidiv {
+  border: 0.1vw solid #f56607;
+  padding: 0.5vw 3vw;
+  border-radius: 10vw;
+  text-align: center;
+}
+
+.info > .fewdetails > .minidiv > h5 {
+  font-size: 4.15vw;
+  color: #f56607;
+}
+
+.minidivs {
+  background-color: white;
+  width: 28.5vw;
+  height: 20vw;
+  border-radius: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.minidivs i {
+  font-size: 6vw;
+  color: #f56607;
+}
+.minidivs h6 {
+  color: #f56607;
+}
+
+.right h3 {
+  color: #f56607;
+  font-size: 7vw;
+  margin: 5vw 0;
+}
+
+.ins {
+  display: flex;
+  align-items: flex-start;
+  min-height: 8vw;
+  padding: 2vw 0;
+  border-radius: 3vw;
+}
+
+.rNum {
+  height: 2.5vw;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #f56607;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0 2vw;
+  margin-top: 2vw;
+}
+
+.rNum-2 {
+  font-size: 3vw;
+  height: 5vw;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #f56607;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 0 2vw;
+  margin-top: 0.6vw;
+}
+
+@media (min-width: 1020px) {
+  .singleDetail {
+    width: 100%;
+  }
+
+  .left,
+  .right {
+    height: 100%;
+    width: 50%;
+  }
+
+  .img {
+    height: 25vw;
+    width: 100%;
+    padding: 1vw 0;
+  }
+
+  .feature {
+    background-color: #f56607;
+    padding: .5vw 1vw;
+    display: flex;
+    gap: 0;
+  }
+
+  .feature i {
+    font-size: 1.1vw;
+    height: 2.3vw;
+    border: 0.2vw solid white;
+    margin: 0 .5vw;
+  }
+
+  .info {
+    border-radius: 1vw;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2vw;
+    padding: 1vw 2vw;
+    margin: 1.5vw 0;
+  }
+
+  .info > .name {
+    font-size: 4.1vw;
+    margin: 1vw 0;
+  }
+
+  .info > p {
+    font-size: 1.3vw;
+    line-height: 1.4vw;
+    height: fit-content;
+  }
+
+  .info > .fewdetails {
+    gap: 2vw;
+    margin: 1vw 0;
+    margin-top: 2vw;
+  }
+
+  .info > .fewdetails > .minidiv {
+    padding: 0.5vw 2vw;
+    border-radius: 10vw;
+  }
+
+  .info > .fewdetails > .minidiv > h5 {
+    font-size: 1.2vw;
+  }
+
+  .fewdetails .minidiv:hover .det-text {
+    color: white;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .minidivs {
+    width: 31%;
+    height: 8vw;
+    border-radius: 1vw;
+  }
+
+  .minidivs > i {
+    font-size: 2.3vw;
+  }
+
+  .minidivs > h6 {
+    font-size: 1.3vw;
+  }
+  /* done till now - the left side */
+
+  .right h3 {
+    font-size: 3vw;
+    margin: 1vw 0;
+    margin-top: 0;
+  }
+
+  .ins {
+    display: flex;
+    align-items: flex-start;
+    min-height: 1vw;
+    padding: 1vw 0;
+    border-radius: 1vw;
+    font-size: 1.4vw;
+  }
+
+  .instruction .ins {
+    padding-top: 1.4vw;
+  }
+
+  .rNum {
+    height: 1.5vw;
+    margin: 0.18vw 1.5vw;
+  }
+
+  .rNum-2 {
+    font-size: 1.2vw;
+    height: 1.6vw;
+    margin: 0.18vw 1.5vw;
+  }
+}

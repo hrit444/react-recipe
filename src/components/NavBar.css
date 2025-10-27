@@ -1,0 +1,22 @@
+@font-face {
+    font-family: praise;
+    src: url(/Font/Praise-Regular.ttf);
+}
+
+nav>.d-logo{
+    font-family: praise;
+    font-weight: 400;
+    font-size: 3.2vw;
+    line-height: 1;
+}
+
+nav>.m-logo{
+    margin-left: .8vw;
+    font-family: praise;
+    font-weight: 400;
+    font-size: 10vw;
+}
+
+nav{
+    color: white;
+}
