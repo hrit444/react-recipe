@@ -5,7 +5,6 @@ const NavMenubar = () => {
   
   const closeHandler = (setActive)=>{
     setActive(false)
-    
   }
 
   return (
